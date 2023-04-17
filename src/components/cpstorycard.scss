@@ -1,0 +1,45 @@
+.cpstorycard {
+	width: 48%;
+	display: flex;
+	flex-direction: column;
+
+	img {
+		width: 100%;
+		height: 60%;
+		object-fit: cover;
+		border-radius: 10px;
+	}
+
+	.story-desc {
+		height: 40%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+
+		h2 {
+			margin: 0;
+		}
+
+		.profile {
+			display: flex;
+			align-items: center;
+			gap: 10px;
+			img {
+				width: 45px;
+				height: 45px;
+				border-radius: 50%;
+				object-fit: cover;
+			}
+			span {
+				color: #292929;
+				font-weight: 400;
+				font-size: 16px;
+				text-transform: capitalize;
+
+				&.date {
+					color: #7e7f81;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,57 @@
+.blogger {
+	width: 48%;
+	height: 127px;
+	display: flex;
+	position: relative;
+	margin-bottom: 45px;
+
+	.profile-image {
+		flex: 1;
+		img {
+			width: 65px;
+			height: 65px;
+			border-radius: 50%;
+			object-fit: cover;
+		}
+	}
+
+	.blogger-desc {
+		flex: 5;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+
+		p {
+			font-size: 12px;
+		}
+		h3 {
+			font-size: 20px;
+			font-weight: 500;
+		}
+		span {
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 24px;
+			letter-spacing: 0.8px;
+			color: #7e7f81;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			display: -webkit-box;
+			-webkit-line-clamp: 3;
+			-webkit-box-orient: vertical;
+		}
+
+		button {
+			position: absolute;
+			right: 0;
+			color: #7e7f81;
+			width: 36px;
+			height: 36px;
+			border: none;
+			border-radius: 50%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+	}
+}

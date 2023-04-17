@@ -1,0 +1,29 @@
+.featuredbloggers {
+	height: 100vh;
+	padding: 80px 110px;
+
+	.blogger-container {
+		display: flex;
+		flex-wrap: wrap;
+
+		.navbar {
+			.heading {
+				display: flex;
+				flex-direction: column;
+				margin-bottom: 50px;
+
+				h1 {
+					color: black;
+					margin-top: 7px;
+				}
+			}
+		}
+
+		.blog-holder {
+			width: 100%;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+		}
+	}
+}

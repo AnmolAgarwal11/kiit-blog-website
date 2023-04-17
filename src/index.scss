@@ -1,0 +1,58 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.App {
+	height: 100vh;
+	color: black;
+	font-family: "Roboto", sans-serif;
+
+	overflow-y: scroll; // Keep scroll functionality
+	scrollbar-width: none; // Firefox
+	-ms-overflow-style: none; // IE and Edge
+	&::-webkit-scrollbar {
+		display: none; // Chrome, Opera and Safari
+	}
+
+	h1 {
+		font-size: 55px;
+		font-weight: 900;
+		line-height: 57px;
+		letter-spacing: 1.7px;
+
+		text-align: center;
+	}
+
+	h2 {
+		font-size: 38px;
+		font-weight: 700;
+		letter-spacing: 1px;
+		margin: 10px 0;
+	}
+
+	h3 {
+		font-size: 25px;
+		font-weight: 700;
+		letter-spacing: 0.8px;
+	}
+
+	p {
+		color: #7e7f81;
+		font-size: 14px;
+		font-weight: 500;
+		line-height: 16px;
+		letter-spacing: 0.8px;
+		text-transform: uppercase;
+	}
+
+	a {
+		font-size: 14px;
+		font-weight: 500;
+		line-height: 16px;
+		letter-spacing: 0.8px;
+		text-decoration: none;
+		text-transform: uppercase;
+	}
+}
